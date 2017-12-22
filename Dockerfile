@@ -10,6 +10,7 @@ WORKDIR /site
 
 # crate new site by setting -e JEKYLL_NEW=true
 ENV JEKYLL_NEW false
+ENV BUILD true
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
